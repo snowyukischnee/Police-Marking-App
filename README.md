@@ -1,4 +1,4 @@
-# Police Marking
+# Police Marking App
 First, make sure your computer has installed `NodeJS`, `MongoDB`, `react-native-cli`, `AndroidSDK` with `Google Play` service installed
 ## Usage
 Firstly, create a database named `GMapDB` in MongoDB. Then create a collection named `myCollection` in `GMapDB`
