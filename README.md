@@ -3,16 +3,16 @@ First, make sure your computer has installed `NodeJS`, `MongoDB`, `react-native-
 ## Usage
 Firstly, create a database named `GMapDB` in MongoDB. Then create a collection named `myCollection` in `GMapDB`
 Then, insert TTL key into this collection:
-````
+```sh
 db.myCollection.createIndex( { "expireAt": 1 }, { expireAfterSeconds: 0 } )
 ````
 Then, install dependencies of server
-````sh
+```sh
 cd RNProjectServer
 npm install
 ````
 Install dependencies & clean react-native app
-````sh
+```sh
 cd RNProject
 npm install
 cd android
@@ -20,11 +20,11 @@ cd android
 cd ../
 ````
 Next, start Android emulator
-````sh
+```sh
 "$PATH_TO_ANDROIDSDK/tools/emulator.exe" -avd "$AVD_NAME"
 ````
 Then, install react-native app on emulator
-````sh
+```sh
 react-native run-android
 ````
 ## Note
