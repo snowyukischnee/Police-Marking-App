@@ -29,5 +29,7 @@ $ react-native run-android
 ````
 ## Note
 This app is tested on Android api 23, IOS is currenly not tested.
+You have to modify file `./RNProject/android/utils/app.js` by replace your IP address if you want to host local & replace with your custom API services
+For further information about API service, see more in `RNProjectServer` folder
 ## Author
 tuannhse04791
